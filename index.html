@@ -2,10 +2,53 @@
 <html lang="en">
  <head>
    <meta charset="utf-8">
-
    <title>azurecrystalz</title>
- </head>
- <body>
-    <a href="https://azurecrystalz.github.io/enstars"><img src="https://res.cloudinary.com/djq41tb84/image/upload/v1699047762/enstars/card%20sized/awlyyv5r06mdrmzqekm1.png"></a>
-    <a href="https://azurecrystalz.github.io/18trip"><img src="https://res.cloudinary.com/djq41tb84/image/upload/v1710025714/ASSETS%20ALWAYS%20USE%20THIS/HIMERU/bloomed/fczf05vr3k1lq64tpyge.png"></a>
- </body>
+
+<style>
+
+img {
+  width: auto;
+  height: auto ;
+}
+
+.centering {
+   text-align: center;
+}
+
+.row {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.row-item{
+     display: inline-block;
+     transition: transform .1s;
+}
+.row-item:hover{
+     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+     grid-template-columns:repeat(auto-fill,minmax(1fr))
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="centering">
+<div class="row">
+
+<div class="row-item"><a href="https://azurecrystalz.github.io/enstars"><img src="https://res.cloudinary.com/djq41tb84/image/upload/v1699047762/enstars/card%20sized/awlyyv5r06mdrmzqekm1.png"></a></div>
+
+<div class="row-item"><a href="https://azurecrystalz.github.io/18trip"><img src="https://res.cloudinary.com/djq41tb84/image/upload/v1710025714/ASSETS%20ALWAYS%20USE%20THIS/HIMERU/bloomed/fczf05vr3k1lq64tpyge.png"></a></div>
+
+</div> 
+</div>
+
+</body>
+
+ </html>
